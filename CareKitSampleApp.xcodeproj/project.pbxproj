@@ -14,9 +14,9 @@
 		990BE0B01CD33A0C00072A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990BE0AE1CD33A0C00072A51 /* LaunchScreen.storyboard */; };
 		99337E211CD883F70051B929 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99337E201CD883F70051B929 /* Colors.swift */; };
 		99337E271CD8853C0051B929 /* BrushTeeth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99337E261CD8853C0051B929 /* BrushTeeth.swift */; };
+		99602BBD1D162C2600353EC8 /* CareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99602BB91D162B6900353EC8 /* CareKit.framework */; };
+		99602BBE1D162C2600353EC8 /* CareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99602BB91D162B6900353EC8 /* CareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9969C85F1CD72DBC003DA423 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9969C85E1CD72DBC003DA423 /* Exercise.swift */; };
-		99D288F51CD60D0C007D23AD /* CareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D288F21CD60C8B007D23AD /* CareKit.framework */; };
-		99D288F61CD60D0C007D23AD /* CareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99D288F21CD60C8B007D23AD /* CareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		99D289001CD60FC1007D23AD /* CarePlanStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D288FF1CD60FC1007D23AD /* CarePlanStoreManager.swift */; };
 		99D2890B1CD618DC007D23AD /* ResearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D289081CD61881007D23AD /* ResearchKit.framework */; };
 		99D2890C1CD618DC007D23AD /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 99D289081CD61881007D23AD /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -26,23 +26,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		99D288F11CD60C8B007D23AD /* PBXContainerItemProxy */ = {
+		99602BB81D162B6900353EC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 99D288EB1CD60C8B007D23AD /* CareKit.xcodeproj */;
+			containerPortal = 99602BB21D162B6900353EC8 /* CareKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8605A5BA1C4F04EC00DD65FF;
 			remoteInfo = CareKit;
 		};
-		99D288F31CD60C8B007D23AD /* PBXContainerItemProxy */ = {
+		99602BBA1D162B6900353EC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 99D288EB1CD60C8B007D23AD /* CareKit.xcodeproj */;
+			containerPortal = 99602BB21D162B6900353EC8 /* CareKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8605A5C41C4F04EC00DD65FF;
 			remoteInfo = CareKitTests;
 		};
-		99D288F71CD60D0C007D23AD /* PBXContainerItemProxy */ = {
+		99602BBF1D162C2600353EC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 99D288EB1CD60C8B007D23AD /* CareKit.xcodeproj */;
+			containerPortal = 99602BB21D162B6900353EC8 /* CareKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 8605A5B91C4F04EC00DD65FF;
 			remoteInfo = CareKit;
@@ -77,8 +77,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				99602BBE1D162C2600353EC8 /* CareKit.framework in Embed Frameworks */,
 				99D2890C1CD618DC007D23AD /* ResearchKit.framework in Embed Frameworks */,
-				99D288F61CD60D0C007D23AD /* CareKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,8 +95,8 @@
 		990BE0B11CD33A0C00072A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99337E201CD883F70051B929 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		99337E261CD8853C0051B929 /* BrushTeeth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrushTeeth.swift; sourceTree = "<group>"; };
+		99602BB21D162B6900353EC8 /* CareKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CareKit.xcodeproj; path = "../../../Downloads/CareKit-master/CareKit.xcodeproj"; sourceTree = "<group>"; };
 		9969C85E1CD72DBC003DA423 /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
-		99D288EB1CD60C8B007D23AD /* CareKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CareKit.xcodeproj; path = "../CareKit-master/CareKit.xcodeproj"; sourceTree = "<group>"; };
 		99D288FF1CD60FC1007D23AD /* CarePlanStoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarePlanStoreManager.swift; sourceTree = "<group>"; };
 		99D289011CD61880007D23AD /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = "../ResearchKit-master/ResearchKit.xcodeproj"; sourceTree = "<group>"; };
 		99D289101CD61927007D23AD /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
@@ -110,9 +110,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99602BBD1D162C2600353EC8 /* CareKit.framework in Frameworks */,
 				99D289111CD61927007D23AD /* HealthKit.framework in Frameworks */,
 				99D2890B1CD618DC007D23AD /* ResearchKit.framework in Frameworks */,
-				99D288F51CD60D0C007D23AD /* CareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,11 +161,11 @@
 			name = Assessments;
 			sourceTree = "<group>";
 		};
-		99D288EC1CD60C8B007D23AD /* Products */ = {
+		99602BB31D162B6900353EC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99D288F21CD60C8B007D23AD /* CareKit.framework */,
-				99D288F41CD60C8B007D23AD /* CareKitTests.xctest */,
+				99602BB91D162B6900353EC8 /* CareKit.framework */,
+				99602BBB1D162B6900353EC8 /* CareKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,8 +191,8 @@
 		99D2890F1CD618E6007D23AD /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99602BB21D162B6900353EC8 /* CareKit.xcodeproj */,
 				99D289011CD61880007D23AD /* ResearchKit.xcodeproj */,
-				99D288EB1CD60C8B007D23AD /* CareKit.xcodeproj */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -223,8 +223,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				99D288F81CD60D0C007D23AD /* PBXTargetDependency */,
 				99D2890E1CD618DC007D23AD /* PBXTargetDependency */,
+				99602BC01D162C2600353EC8 /* PBXTargetDependency */,
 			);
 			name = CareKitSampleApp;
 			productName = CareKitSampleApp;
@@ -238,12 +238,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Digital Javelina, LLC";
 				TargetAttributes = {
 					990BE0A11CD33A0C00072A51 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = YHWHU4634V;
+						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.HealthKit = {
 								enabled = 1;
@@ -265,8 +266,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 99D288EC1CD60C8B007D23AD /* Products */;
-					ProjectRef = 99D288EB1CD60C8B007D23AD /* CareKit.xcodeproj */;
+					ProductGroup = 99602BB31D162B6900353EC8 /* Products */;
+					ProjectRef = 99602BB21D162B6900353EC8 /* CareKit.xcodeproj */;
 				},
 				{
 					ProductGroup = 99D289021CD61880007D23AD /* Products */;
@@ -281,18 +282,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		99D288F21CD60C8B007D23AD /* CareKit.framework */ = {
+		99602BB91D162B6900353EC8 /* CareKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CareKit.framework;
-			remoteRef = 99D288F11CD60C8B007D23AD /* PBXContainerItemProxy */;
+			remoteRef = 99602BB81D162B6900353EC8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		99D288F41CD60C8B007D23AD /* CareKitTests.xctest */ = {
+		99602BBB1D162B6900353EC8 /* CareKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = CareKitTests.xctest;
-			remoteRef = 99D288F31CD60C8B007D23AD /* PBXContainerItemProxy */;
+			remoteRef = 99602BBA1D162B6900353EC8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		99D289081CD61881007D23AD /* ResearchKit.framework */ = {
@@ -343,10 +344,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		99D288F81CD60D0C007D23AD /* PBXTargetDependency */ = {
+		99602BC01D162C2600353EC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CareKit;
-			targetProxy = 99D288F71CD60D0C007D23AD /* PBXContainerItemProxy */;
+			targetProxy = 99602BBF1D162C2600353EC8 /* PBXContainerItemProxy */;
 		};
 		99D2890E1CD618DC007D23AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -461,26 +462,29 @@
 		990BE0B51CD33A0C00072A51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CareKitSampleApp/CareKitSampleApp.entitlements;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CareKitSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitaljavelina.CareKitSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		990BE0B61CD33A0C00072A51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CareKitSampleApp/CareKitSampleApp.entitlements;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CareKitSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.digitaljavelina.CareKitSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

@@ -35,16 +35,16 @@ class CarePlanStoreManager: NSObject {
 
 extension CarePlanStoreManager: OCKCarePlanStoreDelegate {
     
-    func carePlanStoreActivityListDidChange(store: OCKCarePlanStore) {
+    func carePlanStoreActivityListDidChange(_ store: OCKCarePlanStore) {
         updateInsights()
     }
     
-    func carePlanStore(store: OCKCarePlanStore, didReceiveUpdateOfEvent event: OCKCarePlanEvent) {
+    func carePlanStore(_ store: OCKCarePlanStore, didReceiveUpdateOfEvent event: OCKCarePlanEvent) {
         updateInsights()
     }
 }
 
 protocol CarePlanStoreManagerDelegate: class {
     
-    func carePlanStoreManager(manager: CarePlanStoreManager, didUpdateInsights insights: [OCKInsightItem])
+    func carePlanStoreManager(_ manager: CarePlanStoreManager, didUpdateInsights insights: [OCKInsightItem])
 }
